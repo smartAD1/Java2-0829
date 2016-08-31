@@ -31,17 +31,15 @@ public class poker {
 			player[i % 4][i / 4] = poker[i];
 		}
 		// 攤牌
-		String[] suit ={"黑桃","紅心","方塊","梅花"};
-		String[] value ={"A","2","3","4","5","6","7","8","9","10"
-				,"J","Q","K"};
-		
-		for(int[] cards:player){
+		String[] suit = { "黑桃", "紅心", "方塊", "梅花" };
+		String[] value = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
+
+		for (int[] cards : player) {
 			Arrays.sort(cards);
-			for(int card:cards){
-				System.out.print(suit[card/13] + value[card%13] +"  ");
+			for (int card : cards) {
+				System.out.print(suit[card / 13] + value[card % 13] + "  ");
 			}
 			System.out.println();
 		}
 	}
 }
-

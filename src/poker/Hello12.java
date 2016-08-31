@@ -8,7 +8,7 @@ public class Hello12 {
 				switch(a){
 				case 1:
 					System.out.println("A");
-				break;//如果省去會直接往下一層做
+				break;//如果省去break會直接往下一層做
 				
 				case b+2 :
 					System.out.println("B");

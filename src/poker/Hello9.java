@@ -4,7 +4,7 @@ public class Hello9 {
 
 	public static void main(String[] args) {
 	 double test = Math.random();
-	 int score= (int)(test*101);
+	 int score= (int)(test*101);//分數評分 以Math.random產生出亂數*101去評分
 	 System.out.println(score);
 	 if
 	 (score>=90)

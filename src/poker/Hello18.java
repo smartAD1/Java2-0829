@@ -1,11 +1,11 @@
 package poker;
 
-public class Hello18 {
+public class Hello18 {//計算骰子骰一百次後各點數出現幾次
 
 	public static void main(String[] args) {
 		 int a1,a2,a3,a4,a5,a6;
 		     a1=a2=a3=a4=a5=a6=0;
-		 for(int i=1;i<=100;i++){
+		 for(int i=1;i<=100;i++){//使用FOR迴圈骰一百次計算
 			 int point =(int)(Math.random()*6+1);//使用無陣列的骰子 骰一百次的次數
 			 switch(point){
 			 case 1: a1++; break;
